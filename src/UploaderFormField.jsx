@@ -29,9 +29,15 @@ class UploaderFormField extends FormField {
     return this.props.jsxprefixCls;
   }
 
+  reset() {
+    this.uploader.reset();
+  }
+
   renderField() {
     return (
-      <Uploader {...this.props}
+      <Uploader
+        {...this.props}
+        ref={(c) => { this.uploader = c; }}
         fileList={this.state.value}
         onChange={this.handleChange.bind(this)}
       />
