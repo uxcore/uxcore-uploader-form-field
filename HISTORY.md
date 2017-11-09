@@ -1,5 +1,9 @@
 # history
 
+## 0.3.0
+
+* `CHANGED` update `uploader` to ^3.0.0
+
 ## 0.2.1
 
 * `CHANGED` add `reset` method

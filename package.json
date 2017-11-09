@@ -1,6 +1,6 @@
 {
  "name": "uxcore-uploader-form-field",
- "version": "0.2.1",
+ "version": "0.3.0",
  "description": "uxcore-uploader-form-field component for uxcore.",
  "repository": "https://github.com/uxcore/uxcore-uploader-form-field.git",
  "author": "eternalsky",
@@ -51,7 +51,7 @@
   "object-assign": "^4.0.0",
   "react": "^15.3.0",
   "uxcore-form-field": "^0.1.2",
-  "uxcore-uploader": "^2.0.0"
+  "uxcore-uploader": "^3.0.0"
  },
  "contributors": [],
  "license": "MIT"
